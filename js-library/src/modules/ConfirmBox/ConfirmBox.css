@@ -1,0 +1,50 @@
+.confirm-box-container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+
+    display: grid;
+    place-items: center;
+}
+
+.confirm-box {
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: .25rem;
+}
+
+.confirm-box-message {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.confirm-box-buttons {
+    margin: auto;
+    text-align: center;
+}
+
+.confirm-box-buttons button {
+    display: inline-block;
+    padding: .2rem .8rem;
+    margin-left: 2%;
+}
+
+@media (min-width: 992px) {
+    .confirm-box {
+        width: 20%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 576px) {
+    .confirm-box {
+        width: 50%;
+    }
+}
+
+@media (max-width: 575px) {
+    .confirm-box {
+        width: 90%;
+    }
+}

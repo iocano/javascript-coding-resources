@@ -1,0 +1,12 @@
+# Editor
+.vscode/
+
+# Node.js
+**/node_modules
+
+# Dependency Lock Files
+**/package-lock.json
+
+# Compiled Output
+**/dist/
+

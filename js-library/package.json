@@ -1,0 +1,21 @@
+{
+  "name": "js-library",
+  "version": "1.0.0",
+  "description": "A collection of javascript resources, including a library with utilities, notes and examples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascrript",
+    "library",
+    "notes"
+  ],
+  "author": "C. Alberto Cano E.",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-google": "^0.14.0",
+    "prettier": "^3.0.2"
+  }
+}

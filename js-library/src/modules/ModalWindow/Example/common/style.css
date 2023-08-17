@@ -1,0 +1,9 @@
+#modal1 {
+    width: 170px;
+    background-color: grey;
+    height: fit-content;
+}
+label {
+    width: 80px;
+    display: inline-block;
+}

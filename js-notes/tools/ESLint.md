@@ -22,7 +22,7 @@
     },
     // register globals 
     "globals": {
-      // register $ object as global  
+      // register $ object as global
       "$": true
     }
 

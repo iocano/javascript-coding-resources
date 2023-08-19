@@ -8,10 +8,10 @@
 
 1. Creates a global execution environment (stored as GlobalEnv property)
 
-2. Instantiates a call stack (LIFO) used to store and keep track of running  
-   functions. When a function is run, it is pushed on top of the global call  
+2. Instantiates a call stack (LIFO) used to store and keep track of running
+   functions. When a function is run, it is pushed on top of the global call
    stack, once the function terminates, it is popped off.
-3. Set aside global memory, where it store variables globally accessible across  
+3. Set aside global memory, where it store variables globally accessible across
    the script (hoisting).
 4. Push first function (main/global) call to the GLOBAL CALL STACK.
 5. Generate a LEXICAL ENVIRONMENT.
@@ -29,23 +29,23 @@ Parts:
 
 ## Hoisting
 
-JS engine move variables and function declaration to the top of the containing  
+JS engine move variables and function declaration to the top of the containing
 scope during the the compilation phase
 
 ### Variable hoisting
 
-Variable declarations are hoisted to the top of their containing scope.  
-Their assignments remain in the same place in the code.  
+Variable declarations are hoisted to the top of their containing scope.
+Their assignments remain in the same place in the code.
 A variable can be access before it's declares, but its value is undefined
 
 ### Function hoisting
 
-Are hoisted to the top of their containing scope including name and body.  
+Are hoisted to the top of their containing scope including name and body.
 This means you can call the function before it's declared in the code.
 
 ### Function expression hoisting
 
-Are hoisted as variables, their assignments remain in the same place in the  
+Are hoisted as variables, their assignments remain in the same place in the
 code, can be access before it's declares, but its value is undefined.
 
 ## Execution context
@@ -73,7 +73,7 @@ Immediately Invoked Function Expression
 
 ## Closure
 
-is the combination of a function bundled together (enclosed) with references to  
+is the combination of a function bundled together (enclosed) with references to
 its surrounding state (the lexical environment).
 
 ## Factory function

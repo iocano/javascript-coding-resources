@@ -208,13 +208,13 @@ class StructuredFormatter {
     let opening = this.#getIndentation(state.depth);
     const [key, value] = state.current;
     if (!Array.isArray(state.target)) {
-      opening += key + ':';      
+      opening += key + ':';    
     }
     opening += Array.isArray(value) ? '[' : '{';
     opening += '\n';
     return opening;
   }
-  
+
   closing(state) {
     let closing = this.#getIndentation(state.depth - 1);
     closing += Array.isArray(state.target) ? ']' : '}';

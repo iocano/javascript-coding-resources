@@ -27,7 +27,7 @@ class SubmitButton {
   constructor(button) {
     // binding context this.
     const handler = this.#onClick.bind(this);
-    
+  
     button.addEventListener('click', handler);
   }
 

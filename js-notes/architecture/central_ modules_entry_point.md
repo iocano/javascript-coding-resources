@@ -2,19 +2,19 @@
 
 ## Key features
 
-- Central export: remove the need of import each module from their respective  
+- Central export: remove the need of import each module from their respective
   subdirectory, gather all module exports in one place.
 
-- Simplified API: create a simplified and more cohesive API for users,  
+- Simplified API: create a simplified and more cohesive API for users,
   they can import multiple module classes using a single import statement.
 
-- Encapsulation: library users don't need to know the directory structure.  
+- Encapsulation: library users don't need to know the directory structure.
   They can simply import modules from a centralized location.
 
-- Scalability: As the library grows and more modules are added, exports can be  
+- Scalability: As the library grows and more modules are added, exports can be
   added to central point without changing the user-facing API
 
-- Maintainability: If a refactorization is need or the library structure changes,  
+- Maintainability: If a refactorization is need or the library structure changes,
   it can be done without affecting the import paths of users.
 
 ## Project structure
